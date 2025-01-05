@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2020",  // Set the JavaScript version for emitted JavaScript
+    "module": "commonjs",  // Use CommonJS module system (adjust for your environment)
+    "lib": [
+      "es2020",  // Includes the necessary ES2020 library files
+      "dom"  // Add DOM library if your code interacts with web APIs
+    ],
+    "allowJs": true,  // Allows JavaScript files in the project
+    "checkJs": true,  // Enables error reporting in JavaScript files
+    "jsx": "react",  // Specifies JSX generation (use "react" or adjust as needed)
+    "declaration": true,  // Generates .d.ts files for type declarations
+    "declarationMap": true,  // Creates sourcemaps for declaration files
+    "emitDeclarationOnly": false,  // Both .js and .d.ts files will be emitted
+    "sourceMap": true,  // Generates sourcemaps for debugging
+    "strict": true,  // Enable all strict type-checking options
+    "esModuleInterop": true,  // Ensures compatibility with CommonJS modules
+    "skipLibCheck": true,  // Skip type checking of declaration files (for performance)
+    "outDir": "./dist"  // Specify where to output the compiled files
+  },
+  "include": [
+    "src/**/*"  // Include all TypeScript files in the 'src' folder
+  ],
+  "exclude": [
+    "node_modules"  // Exclude the node_modules folder
+  ]
+
+}
